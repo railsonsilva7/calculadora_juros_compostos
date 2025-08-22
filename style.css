@@ -7,13 +7,13 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background: aquamarine;
+    background: rgb(29, 53, 45);
 }
 
 #p{
     padding: 5px;
     border-radius: 10px 30px;
-    background-color: blueviolet;    
+    background-color: rgb(173, 107, 235);    
     display: grid;
     text-align: center;
     border: px solid black;
