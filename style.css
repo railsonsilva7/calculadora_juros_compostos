@@ -11,8 +11,17 @@ body {
 }
 
 #p{
+    padding: 5px;
+    border-radius: 10px 30px;
     background-color: blueviolet;    
     display: grid;
     text-align: center;
     border: px solid black;
+}
+input, button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
 }

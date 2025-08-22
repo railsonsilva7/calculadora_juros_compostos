@@ -9,14 +9,16 @@
 <body>
     <div id="p">
         <h1>Calculadora de Juros Compostos</h1>
-        <div>Valor inicial (R$/U$$)</div>        
-        <input type="number" min="0" step="1">                
-        <div> Taxa de juros por período (%) </div>       
-        <input type="number" min="0" step="1">
-        <div> Período em meses</div>       
-        <input type="number" min="0" step="1">
-        <button>Calcular</button>
-        <div>Ao final do período você terá:R$ <span id="montante_final"></span></div>       
-     </div>
+        <div>Qual será o valor do seu investimento? (R$/U$$)</div>        
+        <input id="inicial" type="number" min="0" step="1" placeholder="R$ 100,00">                
+        <div> Qual a taxa de juros? (%) </div>       
+        <input id="juros" type="number" min="0" step="1" placeholder="10%">
+        <div> Por quantos meses esse valor ficará investido?</div>       
+        <input id="periodo" type="number" min="0" step="1" placeholder="12">
+        <button onclick="calcular()">Calcular</button>
+        <div id="text1"></div>
+        <span id="montante_final">0</span>
+    </div>  
+     <script src="script.js"></script>
 </body>
 </html>
