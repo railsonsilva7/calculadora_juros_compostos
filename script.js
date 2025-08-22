@@ -8,8 +8,7 @@ function calcular() {
 
     document.querySelector('#text1').innerHTML = 'Ao final do período você terá'        
     document.querySelector('#montante_final').innerText = valor_final.toLocaleString("pt-br", {style:"currency", currency:"BRL"})    
-    console.log(text)
-    
+    console.log(text)    
 }
 
 
