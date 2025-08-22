@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+
+#p{
+    background-color: blueviolet;    
+    display: grid;
+    text-align: center;
+    border: 50px solid black;
+}

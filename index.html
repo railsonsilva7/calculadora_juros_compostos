@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros compostos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="p">
+        <h1>Calculadora de Juros Compostos</h1>
+        <div>Valor inicial (R$/U$$)</div>        
+        <input type="number" min="0" step="1">                
+        <div> Taxa de juros por período (%) </div>       
+        <input type="number" min="0" step="1">
+        <div> Período em meses</div>       
+        <input type="number" min="0" step="1">
+        <button>Calcular</button>
+        <div>Ao final do período você terá:R$ <span id="montante_final"></span></div>       
+     </div>
+</body>
+</html>
